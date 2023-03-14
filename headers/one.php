@@ -18,11 +18,7 @@ $ed_header_btn    = get_theme_mod( 'ed_header_btn', false ); ?>
                     if( $ed_header_search || $ed_header_btn ){ ?>			
                         <div class="header-right">				
                             <?php 
-                                todo_header_search();
-                                if( todo_is_woocommerce_activated() ){
-                                    todo_header_woo_user();
-                                    todo_header_woo_cart();
-                                }
+                                todo_header_search();                                
                                 todo_header_button(); 
                             ?>
                         </div>					

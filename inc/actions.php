@@ -315,8 +315,7 @@ if( ! function_exists( 'todo_comments' ) ) :
 /**
  * Pagination
 */
-function todo_comments(){
-    if( todo_is_woocommerce_activated() && is_product() ) return;
+function todo_comments(){   
     
     // If comments are open or we have at least one comment, load up the comment template.
     if ( is_singular() && ( comments_open() || get_comments_number() ) ) :

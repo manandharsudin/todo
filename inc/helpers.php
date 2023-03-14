@@ -237,12 +237,8 @@ function todo_mobile_header(){ ?>
                             
                                 todo_secondary_navigation( true );
 
-                                todo_header_button();
+                                todo_header_button();                             
                                 
-                                if( todo_is_woocommerce_activated() ){
-                                    todo_header_woo_user();
-                                    todo_header_woo_cart();
-                                }
 
                                 todo_header_social();
                             ?>
